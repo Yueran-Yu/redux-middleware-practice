@@ -1,4 +1,5 @@
 export const counterReducer = (state = 0, action) => {
+  console.log('reducer ran')
   switch (action.type) {
     case 'INCREMENT':
       return state + 1
